@@ -23,6 +23,12 @@ const FAQ = () => {
                         </h4><br />
                         <p>As a front-end web developer, you’ll take web design requirements and discuss with user experience experts about colors, layout, and features. Then, it’s your job to take all that discussion and make it come to life. Back-end developers are more immersed in the background components of a website or web application.</p>
                     </Accordion.Body>
+                    <Accordion.Item eventKey="2">
+                        <Accordion.Header>Where we learn Web Development?</Accordion.Header>
+                        <Accordion.Body>
+                            we learn web development from Programming Hero. com
+                        </Accordion.Body>
+                    </Accordion.Item>
                 </Accordion.Item>
             </Accordion>
 
