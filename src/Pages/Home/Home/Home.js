@@ -1,7 +1,5 @@
 import React from 'react';
 import { Button } from 'react-bootstrap';
-// import { useLoaderData } from 'react-router-dom';
-// import NewsSummaryCard from '../../Shared/NewsSummaryCard/NewsSummaryCard';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
 import Brand1 from '../../../assets/brands/Brand4.png';
@@ -11,16 +9,8 @@ import home from '../../../assets/brands/home.svg';
 
 
 const Home = () => {
-    // const allNews = useLoaderData();
     return (
         <div>
-            {/* <h2>Dragon News Home: {allNews.length}</h2>
-            {
-                allNews.map(news => <NewsSummaryCard
-                    key={news._id}
-                    news={news}
-                ></NewsSummaryCard>)
-            } */}
             <section id='header' className='d-flex align-items-center'>
                 <div className='container-fluid nav_bg '>
                     <div className='row'>
@@ -41,18 +31,12 @@ const Home = () => {
                                         src={home}
                                         alt="homeimg"
                                     />
-
                                 </div>
-
                             </div>
                         </div>
-
                     </div>
                 </div>
-
             </section>
-
-
             <Carousel>
                 <Carousel.Item>
                     <img
