@@ -4,9 +4,9 @@ import { Button } from 'react-bootstrap';
 // import NewsSummaryCard from '../../Shared/NewsSummaryCard/NewsSummaryCard';
 import Carousel from 'react-bootstrap/Carousel';
 import { Link } from 'react-router-dom';
-import Brand1 from '../../../assets/brands/Brand1.jpeg';
-import Brand2 from '../../../assets/brands/Brand2.jpeg';
-import Brand3 from '../../../assets/brands/Brand3.jpeg';
+import Brand1 from '../../../assets/brands/Brand4.png';
+import Brand2 from '../../../assets/brands/Brand5.png';
+import Brand3 from '../../../assets/brands/Brand6.png';
 import home from '../../../assets/brands/home.svg';
 
 

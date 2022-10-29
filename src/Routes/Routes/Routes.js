@@ -29,7 +29,8 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/news/:id',
-                element: <PrivateRoute><News></News></PrivateRoute>,
+                element: <News></News>,
+                // element: <PrivateRoute><News></News></PrivateRoute>,
                 loader: ({ params }) => fetch(`http://localhost:5000/news/${params.id}`)
             },
             {
@@ -58,7 +59,7 @@ export const routes = createBrowserRouter([
             },
             {
                 path: '/course',
-                element: <PrivateRoute><Course></Course></PrivateRoute>,
+                element: <Course></Course>,
                 loader: ({ params }) => fetch(`http://localhost:5000/category/${params.id}`)
             }
         ]

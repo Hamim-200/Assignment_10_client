@@ -17,8 +17,12 @@ const Blogs = () => {
                 <p><b>Ans:</b> The react private route component renders child components ( children ) if the user is logged in. If not logged in the user is redirected to the /login page with the return url passed in the location state property.</p>
             </div>
             <div>
-                <h3>What is Node? How does Node work?</h3>
+                <h3>What is Node?</h3>
                 <p><b>Ans:</b> Node provides access to several important global objects for use with Node program files. When writing a file that will run in a Node environment, these variables will be accessible in the global scope of your file.It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive. </p>
+            </div>
+            <div>
+                <h3>How does Node work?</h3>
+                <p><b>Ans:</b>It is a used as backend service where javascript works on the server-side of the application. This way javascript is used on both frontend and backend. Node. js runs on chrome v8 engine which converts javascript code into machine code, it is highly scalable, lightweight, fast, and data-intensive</p>
             </div>
         </div>
     );

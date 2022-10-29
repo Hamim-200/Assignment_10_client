@@ -15,10 +15,11 @@ const News = () => {
                     {details}
                 </Card.Text>
                 <Link to={`/category/${category_id}`}>
-                    <Button variant="primary">All news in this category</Button>
+                    <Button variant="primary">Course Details</Button>
                 </Link>
             </Card.Body>
         </Card>
+
     );
 };
 
